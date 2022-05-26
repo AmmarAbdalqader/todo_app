@@ -3,13 +3,7 @@ import 'package:todo_app/Models/Task.dart';
 import 'dart:collection';
 
 class TaskData extends ChangeNotifier {
-  List<Task> _tasks = [
-    // Task(name: 'Finish TODOEY'),
-    // Task(name: 'Watch Marvel\'s movie'),
-    // Task(name: 'Brooklyn 99'),
-    // Task(name: 'Sleep'),
-    // Task(name: 'Beard Trim')
-  ];
+  List<Task> _tasks = [];
 
   UnmodifiableListView<Task> get tasks {
     return UnmodifiableListView(_tasks);

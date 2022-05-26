@@ -11,11 +11,6 @@ class TasksScreen extends StatefulWidget {
 class _TasksScreenState extends State<TasksScreen> {
   final TextEditingController addTaskCon = TextEditingController();
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  // }
-
   Widget AllPage() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
